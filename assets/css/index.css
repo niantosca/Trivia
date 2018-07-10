@@ -28,6 +28,11 @@ background-size: 100px 100px;
 
 }
 
+#prohi {
+    
+    width: 450px;
+}
+
 #start {
     background-color: black;
     border-color: white;
