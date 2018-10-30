@@ -33,7 +33,7 @@ background-size: 100px 100px;
     width: 450px;
 }
 
-#start {
+#start, #reset {
     background-color: black;
     border-color: white;
     border-width: 2px;

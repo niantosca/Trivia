@@ -22,12 +22,21 @@
                 <img id= "prohi" src="./assets/images/prohibition.jpg">
                 <br>
                 <button type="button"  id="start" class="btn btn-primary btn-lg btn-block">START</button>
+                <div id="score" class="col-md-4">
+                    <p id="correct">
+                        Correct:
+                        <br>
+                        Incorrect:
+                    </p>
+                </div>
             </div>
         </div>
 
         <div class="row">
             <div id="clock" class="col-md-8">
-                <h3 id="timer">Time Remaining: 45 seconds</h3>
+                <h3 id="timer">Time Remaining: 30 seconds</h3>
+                <button type="button"  id="reset" class="btn btn-primary btn-lg btn-block">Try Again</button>
+
             </div>
         </div>
         <br>
@@ -37,22 +46,22 @@
               <h3 id="Q1">1. What was official name of the Prohibition Act?</h3>
                 <hr>
                     <label>
-                        <input type="radio" name="1st" value="The Hobson Act">
+                        <input type="radio" id="a1" name="1st" value="The Hobson Act">
                         The McCarrol Act
                     </label>
                 <br>
                     <label>
-                        <input type="radio" name="1st" value="The Capone Act ">
+                        <input type="radio" id="a2" name="1st" value="The Capone Act ">
                         The Marshall Act
                     </label>
                 <br>
                     <label>
-                        <input type="radio" name="1st" value="The Volstead Act">
+                        <input type="radio" id="a3" name="1st" value="The Volstead Act">
                         The Volstead Act
                     </label>
                 <br>
                     <label>
-                        <input type="radio" name="1st" value="The Kennedy Act">
+                        <input type="radio" id="a4" name="1st" value="The Kennedy Act">
                         The Kennedy Act
                     </label>
                 <br>
@@ -61,22 +70,22 @@
               <h3 id="Q2">2. What year was Prohibiton enacted?</h3>
                 <hr>
                     <label>
-                        <input type="radio" name="2nd" value="1929">
+                        <input type="radio" id="b1" name="2nd" value="1929">
                         1929
                     </label>
                 <br>
                     <label>
-                        <input type="radio" name="2nd" value="1932">
+                        <input type="radio" id="b2" name="2nd" value="1932">
                         1932
                     </label>
                 <br>
                     <label>
-                        <input type="radio" name="2nd" value="1925">
+                        <input type="radio" id="b3" name="2nd" value="1925">
                         1925
                     </label>
                 <br>
                     <label>
-                        <input type="radio" name="2nd" value="1919">
+                        <input type="radio" id="b4" name="2nd" value="1919">
                         1919
                     </label>
                 <br>
@@ -86,22 +95,22 @@
               <h3 id="Q3">3. In what city did Al Capone opperate?</h3>
                 <hr>
                     <label>
-                        <input type="radio" name="3rd" value="New York">
+                        <input type="radio" id="c1" name="3rd" value="New York">
                         New York
                     </label>
                 <br>
                     <label>
-                        <input type="radio" name="3rd" value="Chicago">
+                        <input type="radio" id="c2" name="3rd" value="Chicago">
                         Chicago
                     </label>
                 <br>
                     <label>
-                        <input type="radio" name="3rd" value="Los Angeles">
+                        <input type="radio" id="c3" name="3rd" value="Los Angeles">
                         Los Angeles
                     </label>
                 <br>
                     <label>
-                        <input type="radio" name="3rd" value="Las Vegas">
+                        <input type="radio" id="c4" name="3rd" value="Las Vegas">
                         Las Vegas
                     </label>
                 <br>
@@ -111,22 +120,22 @@
               <h3 id="Q4">4. This Prohibiton era gambler fixed the 1919 World Series.</h3>
                 <hr>
                     <label>
-                        <input type="radio" name="4th" value="Arnold Rothstein">
+                        <input type="radio" id="d1" name="4th" value="Arnold Rothstein">
                         Arnold Rothstein
                     </label>
                 <br>
                     <label>
-                        <input type="radio" name="4th" value="Michael Corleone">
+                        <input type="radio" id="d2" name="4th" value="Michael Corleone">
                         Michael Corleone
                     </label>
                 <br>
                     <label>
-                        <input type="radio" name="4th" value="Bugsy Siegel">
+                        <input type="radio" id="d3" name="4th" value="Bugsy Siegel">
                         Bugsy Siegel
                     </label>
                 <br>
                     <label>
-                        <input type="radio" name="4th" value="Lucky Luciano">
+                        <input type="radio" id="d4" name="4th" value="Lucky Luciano">
                         Lucky Luciano
                     </label>
                 <br>
@@ -136,22 +145,22 @@
               <h3 id="Q5">5. What was Al Capone's nickname?</h3>
                 <br>
                     <label>
-                        <input type="radio" name="5th" value="Slackjaw">
+                        <input type="radio" id="e1" name="5th" value="Slackjaw">
                         Slackjaw
                     </label>
                 <br>
                     <label>
-                        <input type="radio" name="5th" value="Lefty">
+                        <input type="radio" id="e2" name="5th" value="Lefty">
                         Lefty
                     </label>
                 <br>
                     <label>
-                        <input type="radio" name="5th" value="Baby-Face">
+                        <input type="radio" id="e3" name="5th" value="Baby-Face">
                         Baby-Face
                     </label>
                 <br>
                     <label>
-                        <input type="radio" name="5th" value="Scarface">
+                        <input type="radio" id="e4" name="5th" value="Scarface">
                         Scarface
                     </label>
                 <br>
@@ -161,22 +170,22 @@
               <h3 id="Q6">6. What year was Prohibition repealed?</h3>
                 <br>
                     <label>
-                        <input type="radio" name="6th" value="1930">
+                        <input type="radio" id="f1" name="6th" value="1930">
                         1930
                     </label>
                 <br>
                     <label>
-                        <input type="radio" name="6th" value="1929">
+                        <input type="radio" id="f2" name="6th" value="1929">
                         1929
                     </label>
                 <br>
                     <label>
-                        <input type="radio" name="6th" value="1925">
+                        <input type="radio" id="f3" name="6th" value="1925">
                         1925
                     </label>
                 <br>
                     <label>
-                        <input type="radio" name="6th" value="1933">
+                        <input type="radio" id="f4" name="6th" value="1933">
                         1933
                     </label>
                 <br>
