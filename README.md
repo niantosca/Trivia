@@ -1,1 +1,1 @@
-# Trivia
+This is a fairly simple trivia game that I made to practice my jQuery. The user clicks the "start" button to begin the timer, then goes on to answer the six questions below. Once the time runs out, the user's score is tallied and displayed along with a "try again" button that resets the game. 
